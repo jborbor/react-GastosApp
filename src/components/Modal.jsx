@@ -80,7 +80,7 @@ const Modal = ({
                     <label htmlFor="cantidad">Cantidad</label>
                     <input
                         id='cantidad'
-                        type="text"
+                        type="number"
                         placeholder='Añade la cantidad del Gasto: ej. 300'
                         value={cantidad}
                         onChange={e => setCantidad(Number(e.target.value))}
